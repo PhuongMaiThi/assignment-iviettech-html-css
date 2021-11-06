@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+
+		   iViettech - Trung tâm đào tạo Lập trình viên chuyên nghiệp | chuyên đào tạo các khóa  lập trình Java, .Net, Android, iOS, PHP, Tester
+	</title>
+	<link rel="icon" href="https://iviettech.vn/wp-content/themes/viettech/img/front/favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Lập trình viên, Lập trình Java, Lập trình .Net, Lập trình Web, PHP, MySQL, Lập trình di động, Android, iOS, mobile, tester, Kiểm thử phần mềm, thiết kế phần mềm, kỹ sư cầu nối, da nang, đà nẵng, học lập trình tại đà nẵng, hoc lap trinh tai da nang, nơi tốt nhất học lập trình tại đà nẵng, trung tâm đào tạo lập trình tại đà nẵng, đào tạo lập trình viên tại đà nẵng, việc làm CNTT tại đà nẵng, dạy lập trình tại đà nẵng">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		}
+		);
+	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/slicknav.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">		
+			<img src="images/logo.png">
+			
+			<nav id="nav_menu">
+				<ul>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Các khóa học lập trình</a>
+						<ul>
+							<li><a href="">Chuyên nghiệp</a>
+								<ul>
+									<li><a href="">Lập trình Android</a></li>
+									<li><a href="">Lập trình IOS - Swift</a></li>
+									<li><a href="">Kiểm thử chuyên nghiệp</a></li>
+									<li><a href="">Lập trình PHP & Laravel</a></li>
+									<li><a href="">Lập trình Front End- New</a></li>
+									<li><a href="">Lập trình Java từ A-Z</a></li>
+									<li><a href="">Lập trình .NET từ A_Z</a></li>
+									<li><a href="">Lập trình viên chuyên nghiệp</a></li>
+								</ul>
+							</li>
+							<li><a href="">Chuyên sâu</a>
+								<ul>
+                                    <li><a href="#">Phân tích nghiệp vụ (BA)</a></li>
+                                    <li><a href="#">Kỹ sư trí tuệ nhân tạo</a></li>
+                                    <li><a href="#">DevOps Engineer</a></li>
+                                </ul>
+							</li>
+							<li><a href="">Thiết kế đồ họa</a>
+								<ul>
+                                    <li><a href="#">Thiết kế đồ họa</a></li>
+                                    <li><a href="#">Thiết kế Web</a></li>
+                                    <li><a href="#">Thiết kế nội thất</a></li>
+                                    <li><a href="#">Thiết kế 3D & 3D Animation</a></li>
+                                </ul>
+							</li>
+							<li><a href="">Cấp tốc</a>
+								<ul>
+                                    <li><a href="#">Lập trình Java – Cấp tốc</a></li>
+                                </ul>
+							</li>
+							<li><a href="">Các khóa khác</a>
+								<ul>
+                                    <li><a href="#">Lập trình cơ bản</a></li>
+                                    <li><a href="#">Cao đẳng CNTT</a></li>
+                                </ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="">Đăng kí học</a></li>
+					<li><a href="">Việc làm</a></li>
+					<li><a href="">iVietTech</a></li>
+					<li><a href="">Trang Vàng HV</a></li>
+					<li><a href="">Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="slide">
+			<div id="banner" onclick="changeslide()" src="https://iviettech.vn/wp-content/uploads/2015/10/hoc-lap-trinhFILEminimizer.jpg" alt=""></div>
+			</div>
+		</div>
+
+		<div class="main-2">
+			<div class="container">
+				<div class="main2-left">
+					<div class="main2-left-top">
+						<img src="images/icon1-main2.png">
+						<p>ĐĂNG KÝ HỌC</p>
+						<div class="clear"></div>
+					</div>
+
+					<form class="form1-left">
+						<input id="form_control" type="text" placeholder="Họ và tên" required="" name="name">
+						<input id="form_control" type="text" placeholder="Email" required="" name="email">
+						<input id="form_control" type="text" placeholder="Điện thoại" required="" name="phone">
+						
+						<span id="cac-khoa-hoc">
+							<select>
+								<option>Chọn khóa học</option>
+								<option>Lập trình Android</option>
+								<option>Lập trình iOS-Swift</option>
+								<option>Lập trình PHP & MySQL</option>
+								<option>Lập trình Front End</option>
+								<option>Kiểm thử chuyên nghiệp</option>
+								<option>Lập trình Java từ A-Z</option>
+								<option>Lập trình .Net từ A-Z</option>
+								<option>Lập trình viên chuyên nghiệp</option>
+								<option>--------------------</option>
+								<option>Lập trình cơ bản</option>
+								<option>Lập trình Java - Cấp tốc</option>
+								<option>Kỹ sư cầu nối</option>
+							</select>
+						</span><br>
+						
+						<textarea class="form_control" name="text" cols="40" rows="10" id="form_message" aria-required="true" aria-invalid="false" placeholder="Lời nhắn của bạn"></textarea>
+						<div class="dang-ky-hoc">
+							<input id="submit" type="SUBMIT" name="supmit" value="ĐĂNG KÝ HỌC">
+						</div>
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="main2-right">
+					<div class="list-top">
+						<img src="images/icon2-main2.png">
+						<span>CHƯƠNG TRÌNH ĐÀO TẠO</span>
+						<div class="clear"></div>
+					</div>
+						<div class="list-right">
+							<ul>
+								<li><a href="">
+									<img src="images/ctdt1.jfif"></a><br>
+									<div class="list-ctdt">
+										<p>Kiểm thử phần mềm</p><br>
+										<P>Ngày khai giảng: 3 tháng</P><br>
+										<p>Lịch học: Tối: 2-4-6</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt2.png"></a><br>
+									<div class="list-ctdt">
+										<p>Lập Trình Front End- New</p><br>
+										<P>Ngày khai giảng: 5 tháng</P><br>
+										<p>Lịch học: Tối 3-5-7</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt3.jfif"></a>
+									<div class="list-ctdt">
+										<p>Lập trình Java từ A-Z</p><br>
+										<P>Ngày khai giảng: 6 tháng</P><br>
+										<p>Lịch học: Tối: 2-4-6</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt4.jfif"></a>
+									<div class="list-ctdt">
+										<p>Lập trình PHP & Laravel</p><br>
+										<P>Ngày khai giảng: 6 tháng</P><br>
+										<p>Lịch học: Tối: 2-4-6</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt5.jfif"></a>
+									<div class="list-ctdt">
+										<p>Lập trình viên chuyên nghiệp</p><br>
+										<P>Ngày khai giảng: 8 tháng</P><br>
+										<p>Lịch học: Tối: 2-4-6</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt6.jfif"></a>
+									<div class="list-ctdt">
+										<p>Lập trình Android - Kotlin</p><br>
+										<P>Ngày khai giảng: 4 tháng</P><br>
+										<p>Lịch học: Tối: 3-5-7</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt7.jfif"></a>
+									<div class="list-ctdt">
+										<p>Lập trình IOS - Swift</p><br>
+										<P>Ngày khai giảng: 4 tháng</P><br>
+										<p>Lịch học: Tối: 2-4-6</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt8.png"></a>
+									<div class="list-ctdt">
+										<p>Lập trình .NET từ A-Z - New</p><br>
+										<P>Ngày khai giảng: 6 tháng</P><br>
+										<p>Lịch học: Tối: 3-5-7</p>
+									</div>
+								</li>
+								<li><a href=""><img src="images/ctdt9.png"></a>
+									<div class="list-ctdt">
+										<p>Lập trình Java cấp tốc</p><br>
+										<P>Ngày khai giảng: 16 tuần</P><br>
+										<p>Lịch học: Sáng từ thứ 2-7</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				<div class="clear"></div>
+				</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+		<div class="main3">
+			<div class="container">
+				<div class="main3-left">
+					<img src="images/main3.jpg">
+					<div class="clear"></div>
+				</div>
+				
+				<div class="main3-center">
+					<div class="center-top">
+						<img src="images/logo.png">
+					</div>
+					<div class="center-bottom">
+						<h1>Giới Thiệu !</h1><br>
+						<p>Trải qua nhiều năm làm việc trong ngành phần mềm, hiểu được thực trạng nhu cầu nhân lực của ngành, nhóm chuyên gia trong ngành đã thành lập Trung tâm đào tạo Lập trình viên chuyên nghiệp iVietTech với mong muốn thu hẹp khoảng cách giữa nhà trường và doanh nghiệp, tạo cơ hội việc làm cho các bạn trẻ đã, đang và sẽ theo học ngành CNTT.</p><br>
+						<span><a href="">Xem thêm</a></span>
+					</div>
+					<div class="clear"></div>
+				</div>
+				
+				<div class="main3-right">
+					<div class="right-top">
+						<img src="images/main3-ic1.png">
+						<span>Kết nối với chúng tôi</span>
+						<div class="clear"></div>
+					</div>
+					<div class="right-bottom">
+						<div class="bottom1">
+							<img src="images/main3-ic2.jpg">
+							<div class="bt1">
+								<a href="">IViettech - Trung tâm đ...</a><br>
+								<p>9.804 lượt thích</p>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+						<div class="bottom2">
+							<div class="btn2"><a href="">Thích Trang</a> </div>
+							<div class="btn3"><a href="">Gửi tin nhắn</a></div>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	<div class="clear"></div>
+		<div class="main4">
+			<div class="container">
+				<div class="main4-left">
+					<div class="top-left">
+						<img class="top-right-img" src="images/main4-ic1.png">
+						<span><a href="">LỊCH KHAI GIẢNG</a></span>
+					</div>
+					<div class="bottom-left">
+						<ol>
+							<li><a href="">
+								<img src="images/ctdt1.jfif"></a>
+								<div class="list-lkg">
+									<p>Kiểm thử phần mềm</p>
+									<P>Ngày khai giảng: 09/12/2020</P>
+									<p>Lịch học: Tối: 2-4-6</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt2.png"></a>
+								<div class="list-lkg">
+									<p>Lập Trình Front End</p>
+									<P>Ngày khai giảng: 15/12/2020</P>
+									<p>Lịch học: Tối 3-5-7</p>
+								</div>
+							</li>
+							<div class="clear"></div>
+						</ol>
+						<ol>
+							<li><a href=""><img src="images/ctdt3.jfif"></a>
+								<div class="list-lkg">
+									<p>Lập trình Java từ A-Z</p>
+									<P>Ngày khai giảng: 9/12/2020</P>
+									<p>Lịch học: Tối: 2-4-6</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt4.jfif"></a>
+								<div class="list-lkg">
+									<p>Lập trình PHP & Laravel</p>
+									<P>Ngày khai giảng: 21/12/2020</P>
+									<p>Lịch học: Tối: 2-4-6</p>
+								</div>
+							</li>
+							<div class="clear"></div>
+						</ol>
+						<ol>
+							<li><a href=""><img src="images/ctdt5.jfif"></a>
+								<div class="list-lkg">
+									<p>Lập trình viên chuyên nghiệp</p>
+									<P>Ngày khai giảng: 4/12/2020</P>
+									<p>Lịch học: Tối: 2-4-6</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt6.jfif"></a>
+								<div class="list-lkg">
+									<p>Lập trình Android</p>
+									<P>Ngày khai giảng: 02/02/2021</P>
+									<p>Lịch học: Tối: 3-5-7</p>
+								</div>
+							</li>
+							<div class="clear"></div>
+						</ol>
+						<ol>
+							<li><a href=""><img src="images/ctdt7.jfif"></a>
+								<div class="list-lkg">
+									<p>Lập trình IOS - Swift</p>
+									<P>Ngày khai giảng: 08/02/2021</P>
+									<p>Lịch học: Tối: 2-4-6</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt8.png"></a>
+								<div class="list-lkg">
+									<p>Lập trình .NET từ A-Z - New</p>
+									<P>Ngày khai giảng: 2/3/2021</P>
+									<p>Lịch học: Tối: 3-5-7</p>
+								</div>
+							</li>
+							<div class="clear"></div>
+						</ol>
+						<ol>
+							<li><a href=""><img src="images/ctdt9.png"></a>
+								<div class="list-lkg">
+									<p>Lập trình Java cấp tốc</p>
+									<P>Ngày khai giảng: 1/3/2021</P>
+									<p>Lịch học: Sáng từ thứ 2-7</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt10.png"></a>
+								<div class="list-lkg">
+									<p>Phân tích nghiệp vụ (BA)</p>
+									<P>Ngày khai giảng: 15/12/2020</P>
+									<p>Lịch học: Tối 3-5-7</p>
+								</div>
+							</li>
+							<div class="clear"></div>
+						</ol>
+						<ol>
+							<li><a href=""><img src="images/ctdt11.jpg"></a>
+								<div class="list-lkg">
+									<p>Kỹ sư trí tuệ nhân tạo (AI Engineer)</p>
+									<P>Ngày khai giảng: 14/12/2020</P>
+									<p>Lịch học: Tối 2-4-6</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt12.png"></a>
+								<div class="list-lkg">
+									<p>DevOps Engineer</p>
+									<P>Ngày khai giảng: 21/12/2020</P>
+									<p>Lịch học: Tối 2-4-6</p>
+								</div>
+							</li>
+							<div class="clear"></div>
+						</ol>
+					</div>
+					<div class="clear"></div>
+				</div>
+				
+				<div class="main4-right">
+					<div class="top-right">
+						<img class="top-right-img" src="images/main4-ic2.png">
+						<span><a href="">CÁC KHÓA KHÁC</a></span>
+						<div class="clear"></div>
+					</div>
+					<div class="bottom-right">
+						<ul>
+							<li><a href=""><img src="images/ctdt13.png"></a>
+								<div class="list-khm">
+									<p>Lập trình cơ bản</p>
+									<p>Ngày khai giảng: 09-12-2020</p>
+									<P>Thời gian: 1 tháng</P>
+									<p>Suất học: Tối: 2-4-6</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt14.png"></a>
+								<div class="list-khm">
+									<p>Thiết kế đồ họa</p>
+									<p>Ngày khai giảng: 22-12-2020</p>
+									<P>Thời gian: 6 tháng</P>
+									<p>Suất học: Tối 3-5-7</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt15.png"></a>
+								<div class="list-khm">
+									<p>Thiết kế nội thất</p>
+									<p>Ngày khai giảng: 01-12-2020</p>
+									<P>Thời gian: 6 tháng</P>
+									<p>Suất học: Tối 3-5-7</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt16.png"></a>
+								<div class="list-khm">
+									<p>Cao đẳng CNTT</p>
+									<p>Ngày khai giảng: 06-30/10/2020</p>
+									<P>Thời gian: 2.5 năm</P>
+									<p>Suất học: Hàng ngày</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt17.png"></a>
+								<div class="list-khm">
+									<p>Thiết kế Web</p>
+									<p>Ngày khai giảng: 29-09-2020</p>
+									<P>Thời gian: 6 tháng</P>
+									<p>Suất học: Tối: 3-5-7</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt18.png"></a>
+								<div class="list-khm">
+									<p>Thiết kế 3D & 3D Animation</p>
+									<p>Ngày khai giảng: 20-10-2020</p>
+									<P>Thời gian: 6 tháng</P>
+									<p>Suất học: Tối: 3-5-7</p>
+								</div>
+							</li>
+							<li><a href=""><img src="images/ctdt19.jpg"></a>
+								<div class="list-khm">
+									<p>Kỹ sư cầu nối</p>
+									<p>Ngày khai giảng: 12-08-2019</p>
+									<P>Thời gian: 12 tháng</P>
+									<p>Suất học: Sáng từ thứ 2-7</p>
+								</div>
+							</li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	<div class="main5">
+		<div class="container">
+			<div class="main5-left">
+				<div class="main5-lt1">
+					<img src="images/main5-ic1.png">
+					<p>Tin Tức & Sự Kiện</p>
+					<div class="clear"></div>
+				</div>
+				<div class="main5-lbt1">
+					<img src="images/main5-img1.jpg">
+					<div class="text">
+						<h2>Apple cắt thời gian duyệt app còn 1 ngày</h2><br>
+						<h3>Thứ Bảy, 04/07/2020</h3><br>
+						<p>Apple vừa cắt thời gian duyệt ứng dụng trên Store xuống chỉ còn 1 ngày. Đây là một trong những cố gắng của Apple nhằm cải thiện dịch vụ...</p><br>
+					</div>
+					<span><a href="">Xem thêm</a></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="main5-right">
+				<div class="main5-righttop">
+					<img src="images/main5-ic1.png">
+					<p>Tin Tuyển Dụng</p>
+					<div class="clear"></div>
+				</div>
+			
+				<div class="main5-rightbt">
+					<ul>
+						<li><a href="">
+							<img src="images/5-1.jpg"></a>
+							<div class="list">
+								<p>Công ty : CÔNG TY PHẦN MỀM EST ROUGE</p>
+								<a>PHP – FRONTEND – TESTER</a>
+								<h3>Thứ Bảy, 05/12/2020</h3>
+							</div>
+						</li>
+						<li><a href="">
+							<img src="images/5-2.jpg"></a>
+							<div class="list">
+								<p>Công ty : CÔNG TY PHẦN MỀM RIKKEI</p>
+								<a>Nhiều vị trí với all levels từ Rikkei</a>
+								<h3>Thứ Bảy, 05/12/2020</h3>
+							</div>
+						</li>
+						<li><a href="">
+							<img src="images/5-3.jpg"></a>
+							<div class="list">
+								<p>Công ty : Enjoyworks</p>
+								<a>Frontend (Fresher ReactJS)</a>
+								<h3>Thứ Bảy, 05/12/2020</h3>
+							</div>
+						</li>
+						<li><a href="">
+							<img src="images/5-4.jpg"></a>
+							<div class="list">
+								<p>Công ty : CÔNG TY PHẦN MỀM IMT</p>
+								<a>JAVA – .NET – RUBY ON RAILS – PYTHON</a>
+								<h3>Thứ Bảy, 05/12/2020</h3>
+							</div>
+						</li>
+						<li><a href="">
+							<img src="images/5-5.jpg"></a>
+							<div class="list">
+								<p>Công ty : GMO ĐÀ NẴNG</p>
+								<a>#PHP #RUBY #FRONT_END</a>
+								<h3>Thứ Tư, 01/07/2020</h3>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</main>
+
+<footer>
+	<div class="container">
+	<div class="footer1">
+		<p>Địa chỉ : 92 Quang Trung, Q. Hải Châu, TP. Đà Nẵng - Điện thoại : 02363 888 279</p>
+		<p>Email : contact@iviettech.vn</p>
+	</div>
+	<div class="footer2">
+		<p>Bản quyền thuộc về Iviettech</p>
+	</div>
+	<div class="clear"></div>
+	</div>
+</footer>
+
+</body>
+</html>
